@@ -5,3 +5,7 @@
 ##Usage
 Go to the following web page: https://shooters00.github.io/02-Homework/
 The GitHub Repo is located here: https://github.com/shooters00/02-Homework 
+
+Screenshots of project:
+https://github.com/shooters00/02-Homework/assets/images/Slide1.png
+https://github.com/shooters00/02-Homework/assets/images/Slide2.png 
