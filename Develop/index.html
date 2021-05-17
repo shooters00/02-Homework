@@ -9,8 +9,8 @@
 </head>
 
 <body>
-    <!--- ????Do we use "main" somewhere? --->
-    <!--- Header semantic tag replaces div --->
+
+    <!--- "Header" - Header semantic tag replaces div --->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
     
@@ -28,11 +28,14 @@
                 </li>
             </ul>
         </nav>
+        <!--- Changed to figure tag. --->
+        <figure>
+            <!--- Contains background header image called out in CSS. --->
+        </figure>
     </header>
-    
-    <!--- There is nothing in this "hero" div; however, the image is in the CSS.  Do we need to do anything here?  Call it section with class "hero" or id "hero"? --->
-    <div class="hero"></div>
-    <div class="content">
+
+    <!--- "Main" - Changed to main tag. --->
+    <main>
         <!--- Changed to section tag.  Added an id to this tag so that the #link went to this place in the page when clicked --->
         <section id="search-engine-optimization" class="search-engine-optimization">
             <!--- Added alt text to image.  Created figure tag. --->
@@ -64,8 +67,10 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </section>
-    </div>
-    <div class="benefits">
+    </main>
+
+    <!--- "Aside" - changed to aside tag for right panel. --->
+    <aside>
         <!--- Changed to section tag. --->
         <section class="benefit-lead">
             <h3>Lead Generation</h3>
@@ -99,7 +104,8 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </section>
-    </div>
+    </aside>
+
     <!--- Footer semantic tag replaces div --->
     <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
@@ -107,6 +113,8 @@
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
     </footer>
+
+
 </body>
 
 </html>
