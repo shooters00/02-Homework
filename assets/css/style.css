@@ -87,12 +87,12 @@ main {
 
 /* Consolidating engine, reputation, and marketing, as they are all the same.  Consolidated float left and right. */
 /* Changed .content to main */
-main figure .float-left {
+main .float-left {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
-main figure .float-right {
+main .float-right {
     max-height: 200px;
     float: right;
     margin-left: 25px;
